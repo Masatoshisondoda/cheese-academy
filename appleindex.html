@@ -7,188 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
-<script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
-<!-- ヘッダー -->
-<header id="header">
-    <div class="header-inner wrapper">
-        <h1 class="logo"><a href="#"><img src="img/logo.jpg" alt="テキストテキスト"></a></h1>
-    
-        <nav id="navi">
-            <ul>
-                <li><a href="#">Milk</a></li>
-                <li><a href="#">Butter</a></li>
-                <li><a href="#">Fresh Cream</a></li>
-                <li><a href="#">Yogurt</a></li>
-                <li><a href="#">Cheese</a></li>
-                <li><a href="#">Soy milk</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        </nav>
-    
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-</header>
-<!-- メインコンテンツ -->
-<main id="main">
-<section id="cheese_">
-    <h2 class="headline">そう、これがチーズ</h2>
-    <p class="subhead">クールな穴ぼこ　新登場</p>
-</section>
-<section id="kind">
-    <h2 class="headline">種類がたくさん、幸せもたくさん</h2>
-    <picture>
-        <source media="(max-width: 767px)" srcset="img/cheese_eat.jpeg">
-        <img src="img/cheese_eat.jpeg" alt="チーズ">
-    </picture>
-</section>
+    <!-- ヘッダー -->
+    <header id="header">
+        <div class="header-inner wrapper">
+            <h1 class="logo"><a href="#"><img src="img/logo.jpg" alt="テキストテキスト"></a></h1>
 
-
-
-
-<div class="wrap-video">
-
-    <div class="text">
-        <p class=anime>乳が固まる　チーズになる　あとは食べるだけ</p>
-    </div>
-
-    <video media="(max-width: 767px)" src="CheeseFire.mp4" muted autoplay loop></video>
-
-</div>
-
-
-<div class="wrap-video">
-
-    <div class="text">
-        <p>王道の食べ方</p>
-        <p class="headline">この美味しさはまるで魔法</p>
-    </div>
-
-    <video src="cheese.mp4" muted autoplay loop></video>
-
-</div>
-
-
-
-
-
-
-
-<section id="compare" class="wrapper">
-    <h2 class="headline">チェダーで守る？カマンベールで攻める？</h2>
-    <a class="models" href="#">あなたにぴったりのチーズはこちら</a>
-
-    <div class="compare-list">
-        <div class="item">
-            <div class="gazou"><img src="img/ka.jpeg" alt=""></div>
-            <h3 class="Camember item-title">Camembert12</h3>
-            <div class="item-title">
-                <li>これはただのカマンベールではありません<br>時代を変えるチーズです</li>
-                <li>どこまでも丸く<br>どこまでも白く</li>
-                <li>トマトと食べるのもおすすめ</li>
-            </div>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-
-        <div class="item">
-            <div class="gazou"><img src="img/blue.jpeg" alt=""></div>
-            <h3 class="bluePro item-title">Blue Pro</h3>
-            <div class="item-title">
-                <li>このチーズは全てのチーズを過去のものにする　<br>ここに誕生</li>
-                <li>最大40%のカロリーカット<br>最大70%の軽量化(※1)</li>
-                <li>この軽さまるで空気</li>
-            </div>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-
-        <div class="item">
-            <div class="gazou"><img src="img/suraisu.jpeg" alt=""></div>
-            <h3 class="Slice item-title">Slice Pro Max</h3>
-            <div class="item-title">
-                <li>どこまでも薄く、どこまでも透き通るように　<br>この薄さ伊達じゃない</li>
-                <li>Proを超過する<br>Pro　Max登場</li>
-                <li>どこへだって持ち出せる</li>
-            </div>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-
-        <div class="item">
-        <div class="gazou"><img src="img/kuream.jpeg" alt=""></div>
-            <h3 class="Cream item-title">Cream Pro Max</h3>
-            <div class="item-title">
-                <li>私達はチーズの概念を再定義しました　<br>クリーム型のチーズ登場</li>
-                <li>高いカロリー<br>優れた互換性</li>
-                <li>なんにだって合う</li>
-            </div>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-    </div>
-</section>
-
-<div id="collection">
-    <!-- Butter -->
-    <section class="Butter_icon item">
-        <div class="copy">
-            <h2 class="headline">Butter</h2>
-            <p class="subhead">Eat! Fast! Fat!</p>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-    </section>
-
-    <!-- Yogurt -->
-    <section class="Yogurt_icon item">
-        <div class="copy bg-dark">
-            <h2 class="headline">Yogurt</h2>
-            <p class="subhead">白い　そして、健康</p>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-    </section>
-
-    <!-- TV -->
-    <section class="mix item">
-        <div class="copy bg-dark">
-            <h2 class="headline">Mix</h2>
-            <p class="subhead">単品でも、ミックスでも</p>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-    </section>
-
-    <!-- Store -->
-    <section class="store item">
-        <div class="copy">
-            <h2 class="headline">Store</h2>
-            <p class="subhead">原材料だって売っています</p>
-            <a class="link-more" href="#">Learn more</a>
-        </div>
-    </section>
-</div>
-
-</main>
-
-<!-- フッター -->
-<footer id="footer">
-    <div class="wrapper">
-        <div class="text-area">
-            <p>
-                ※1　市販のチーズと自社のチーズを使用し、2021年7月に社内で、チーズアカデミーが実施したテスト結果によります。
-                <br>
-                
-            </p>
-            <p>チーズの商標は、チーズアカデミー株式会社のライセンスに基づき利用されています。</p>
-            <p>その他の購入方法：お近くのスーパー、またはチーズ取扱店で製品を購入することもできます。</p>
-        </div>
-
-        <div class="footer-menu">
-            <!-- 製品情報と購入 -->
-            <div class="menu">
-                <p class="title">製品情報と購入</p>
+            <nav id="navi">
                 <ul>
                     <li><a href="#">Milk</a></li>
                     <li><a href="#">Butter</a></li>
@@ -196,46 +26,217 @@
                     <li><a href="#">Yogurt</a></li>
                     <li><a href="#">Cheese</a></li>
                     <li><a href="#">Soy milk</a></li>
+                    <li><a href="#">Support</a></li>
                 </ul>
-            </div>
+            </nav>
 
-            <!-- サービス -->
-            <div class="menu">
-                <p class="title">サービス</p>
-                <ul>
-                    <li><a href="#">New seihin</a></li>
-                    <li><a href="#">Titi Sibori</a></li>
-                    <li><a href="#">Kokei</a></li>
-                    <li><a href="#">AnaBoko</a></li>
-                    <li><a href="#">syoumikigen</a></li>
-                </ul>
-            </div>
-
-            <!-- Store -->
-            <div class="menu">
-                <p class="title">Store</p>
-                <ul>
-                    <li><a href="#">オンラインで購入</a></li>
-                    <li><a href="#">一括でのお支払い</a></li>
-                    <li><a href="#">ご消化状況</a></li>
-                    <li><a href="#">賞味期限ガイド</a></li>
-                </ul>
-            </div>
-
-            <!-- サポート -->
-            <div class="menu">
-                <p class="title">サポート</p>
-                <ul>
-                    <li><a href="#">調理オプション</a></li>
-                    <li><a href="#">サービス情報</a></li>
-                    <li><a href="#">ハードウェア保証</a></li>
-                    <li><a href="#">無償サポート</a></li>
-                </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <p class="copyright">Copyright © 2021 Cheese Academy</p>
-    </div>
-</footer>
+    </header>
+    <!-- メインコンテンツ -->
+    <main id="main">
+        <section id="cheese_">
+            <h2 class="headline">そう、これがチーズ</h2>
+            <p class="subhead">クールな穴ぼこ　新登場</p>
+            <p></p>
+        </section>
+        <section id="kind">
+            <h2 class="headline">種類がたくさん、幸せもたくさん</h2>
+            <picture>
+                <source media="(max-width: 767px)" srcset="img/cheese_eat.jpeg">
+                <img src="img/cheese_eat.jpeg" alt="チーズ">
+            </picture>
+        </section>
+
+
+
+
+        <div class="wrap-video">
+
+            <div class="text">
+                <p class=anime>乳が固まる　チーズになる　あとは食べるだけ</p>
+            </div>
+
+            <video media="(max-width: 767px)" src="CheeseFire.mp4" muted autoplay loop></video>
+
+        </div>
+
+
+        <div class="wrap-video">
+
+            <div class="text">
+                <p>王道の食べ方</p>
+                <p class="headline">この美味しさはまるで魔法</p>
+            </div>
+
+            <video src="cheese.mp4" muted autoplay loop></video>
+
+        </div>
+
+
+
+
+
+
+
+        <section id="compare" class="wrapper">
+            <h2 class="headline">チェダーで守る？カマンベールで攻める？</h2>
+            <a class="models" href="#">あなたにぴったりのチーズはこちら</a>
+
+            <div class="compare-list">
+                <div class="item">
+                    <div class="gazou"><img src="img/ka.jpeg" alt=""></div>
+                    <h3 class="Camember item-title">Camembert12</h3>
+                    <div class="item-title">
+                        <li>これはただのカマンベールではありません<br>時代を変えるチーズです</li>
+                        <li>どこまでも丸く<br>どこまでも白く</li>
+                        <li>トマトと食べるのもおすすめ</li>
+                    </div>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+
+                <div class="item">
+                    <div class="gazou"><img src="img/blue.jpeg" alt=""></div>
+                    <h3 class="bluePro item-title">Blue Pro</h3>
+                    <div class="item-title">
+                        <li>このチーズは全てのチーズを過去のものにする　<br>ここに誕生</li>
+                        <li>最大40%のカロリーカット<br>最大70%の軽量化(※1)</li>
+                        <li>この軽さまるで空気</li>
+                    </div>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+
+                <div class="item">
+                    <div class="gazou"><img src="img/suraisu.jpeg" alt=""></div>
+                    <h3 class="Slice item-title">Slice Pro Max</h3>
+                    <div class="item-title">
+                        <li>どこまでも薄く、どこまでも透き通るように　<br>この薄さ伊達じゃない</li>
+                        <li>Proを超過する<br>Pro　Max登場</li>
+                        <li>どこへだって持ち出せる</li>
+                    </div>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+
+                <div class="item">
+                    <div class="gazou"><img src="img/kuream.jpeg" alt=""></div>
+                    <h3 class="Cream item-title">Cream Pro Max</h3>
+                    <div class="item-title">
+                        <li>私達はチーズの概念を再定義しました　<br>クリーム型のチーズ登場</li>
+                        <li>高いカロリー<br>優れた互換性</li>
+                        <li>なんにだって合う</li>
+                    </div>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="collection">
+            <!-- Butter -->
+            <section class="Butter_icon item">
+                <div class="copy">
+                    <h2 class="headline">Butter</h2>
+                    <p class="subhead">Eat! Fast! Fat!</p>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+            </section>
+
+            <!-- Yogurt -->
+            <section class="Yogurt_icon item">
+                <div class="copy bg-dark">
+                    <h2 class="headline">Yogurt</h2>
+                    <p class="subhead">白い　そして、健康</p>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+            </section>
+
+            <!-- TV -->
+            <section class="mix item">
+                <div class="copy bg-dark">
+                    <h2 class="headline">Mix</h2>
+                    <p class="subhead">単品でも、ミックスでも</p>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+            </section>
+
+            <!-- Store -->
+            <section class="store item">
+                <div class="copy">
+                    <h2 class="headline">Store</h2>
+                    <p class="subhead">原材料だって売っています</p>
+                    <a class="link-more" href="#">Learn more</a>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="text-area">
+                <p>
+                    ※1　市販のチーズと自社のチーズを使用し、2021年7月に社内で、チーズアカデミーが実施したテスト結果によります。
+                    <br>
+
+                </p>
+                <p>チーズの商標は、チーズアカデミー株式会社のライセンスに基づき利用されています。</p>
+                <p>その他の購入方法：お近くのスーパー、またはチーズ取扱店で製品を購入することもできます。</p>
+            </div>
+
+            <div class="footer-menu">
+                <!-- 製品情報と購入 -->
+                <div class="menu">
+                    <p class="title">製品情報と購入</p>
+                    <ul>
+                        <li><a href="#">Milk</a></li>
+                        <li><a href="#">Butter</a></li>
+                        <li><a href="#">Fresh Cream</a></li>
+                        <li><a href="#">Yogurt</a></li>
+                        <li><a href="#">Cheese</a></li>
+                        <li><a href="#">Soy milk</a></li>
+                    </ul>
+                </div>
+
+                <!-- サービス -->
+                <div class="menu">
+                    <p class="title">サービス</p>
+                    <ul>
+                        <li><a href="#">New seihin</a></li>
+                        <li><a href="#">Titi Sibori</a></li>
+                        <li><a href="#">Kokei</a></li>
+                        <li><a href="#">AnaBoko</a></li>
+                        <li><a href="#">syoumikigen</a></li>
+                    </ul>
+                </div>
+
+                <!-- Store -->
+                <div class="menu">
+                    <p class="title">Store</p>
+                    <ul>
+                        <li><a href="#">オンラインで購入</a></li>
+                        <li><a href="#">一括でのお支払い</a></li>
+                        <li><a href="#">ご消化状況</a></li>
+                        <li><a href="#">賞味期限ガイド</a></li>
+                    </ul>
+                </div>
+
+                <!-- サポート -->
+                <div class="menu">
+                    <p class="title">サポート</p>
+                    <ul>
+                        <li><a href="#">調理オプション</a></li>
+                        <li><a href="#">サービス情報</a></li>
+                        <li><a href="#">ハードウェア保証</a></li>
+                        <li><a href="#">無償サポート</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2021 Cheese Academy</p>
+        </div>
+    </footer>
 </body>
 
 </html>
