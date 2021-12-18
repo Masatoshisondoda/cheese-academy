@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+html {
+ font-size: 100%;
+}
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Meiryo", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #1d1d1f;
+}
+a {
+  color: #06c;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 980px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+.link-more {
+  font-size: 14px;
+  position: relative;
+}
+.link-more::after {
+  position: absolute;
+  top: 54%;
+  right: -12px;
+  width: 7px;
+  height: 7px;
+  transform: translateY(-50%) rotate(45deg);
+  border-right: 2px solid currentColor;
+  border-top: 2px solid currentColor;
+  content: "";
+}
+.link-more:hover {
+  text-decoration: underline;
+  }
+
+/*-------------------------------------------
+メイン
+-------------------------------------------*/
+
+#main {
+  padding-top: 44px;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+
+#header {
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 10;
+}
+
+#header .header-inner {
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+#header .header-inner .logo {
+  flex-shrink: 0;
+  width: 40px;
+  line-height: 1px;
+  margin-right: 9%;
+}
+
+#navi {
+  width: 100%;
+}
+
+#navi ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navi a {
+  height: 44px;
+  line-height: 44px;
+  display: inline-block;
+  color: #f5f5f7;
+  font-size: 14px;
+  padding: 0 10px;
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+
+#navi a:hover {
+  opacity: 1;
+}
+
+
+/* 動画 */
+
+.wrap-video{
+  position:relative;
+}
+
+.wrap-video video{
+  width: 100%;
+  height:100%
+}
+
+.wrap-video .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+  text-align:center;
+}
+
+.wrap-video .text p{
+        background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+  font-size:70px;
+  font-weight:bold;
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+.anime {
+font-family: monospace; 
+width: 28ch;
+border-right: .08em solid;
+overflow: hidden;
+font-size: 4em;
+white-space: nowrap;
+animation: typing 1.5s steps(11, end), caret .5s step-end infinite;
+}
+
+
+
+
+/*-------------------------------------------
+cheese_
+-------------------------------------------*/
+
+#cheese_ {
+  background-image: url(../img/cheese.png);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+#cheese_ .headline {
+  color: #f5f5f7;
+  font-size: 100px;
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#cheese_ .subhead {
+  font-size: 50px;
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+  font-weight: bold;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/*-------------------------------------------
+kind
+-------------------------------------------*/
+
+#kind {
+  margin-bottom: 80px;
+}
+
+#kind img {
+  width: 100%;
+  max-width: 1920px;
+  height: 800px;
+  object-fit: cover;
+}
+
+#kind .headline {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+/*-------------------------------------------
+Compare
+-------------------------------------------*/
+
+#compare {
+  margin-bottom: 80px;
+}
+
+#compare .headline {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#compare .models {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#compare .models:hover {
+  text-decoration: underline;
+}
+
+#compare .compare-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+#compare .item {
+  padding: 20px;
+}
+
+#compare .item li {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+
+#compare .item .Camember{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px 0px 23px;
+}
+
+#compare .item .bluePro {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px 0px 60px;
+}
+
+#compare .item .Slice {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px 0px 25px;
+}
+
+#compare .item .Cream {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px 0px 17px;
+}
+
+#compare .item-title{
+  font-size: 24px;
+  margin: 20px 0px 0px 15px;
+}
+#compare .gazou{
+    width:200px;
+    height: 200px;
+}
+/*-------------------------------------------
+Collection
+-------------------------------------------*/
+
+#collection {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 12px;
+}
+
+#collection .Butter_icon {
+  background-image: url(../img/Butter.jpeg);
+}
+
+#collection .Yogurt_icon {
+  background-image: url(../img/milk.jpeg);
+}
+
+#collection .mix {
+  background-image: url(../img/mix.jpeg);
+}
+
+#collection .store {
+  background-image: url(../img/store.jpeg);
+}
+
+#collection .item {
+  background-size: cover;
+  background-position: center;
+  height: 520px;
+  position: relative;
+}
+
+#collection .item .copy {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#collection .item .bg-dark {
+  color: #fff;
+}
+
+#collection .item .headline {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#collection .item .subhead {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+
+
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+
+#footer {
+  width: 100%;
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+#footer .text-area {
+  border-bottom: 1px solid #d2d2d7;
+}
+
+#footer .text-area p {
+  margin-bottom: 20px;
+}
+
+#footer .footer-menu {
+  display: flex;
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#footer .footer-menu .menu {
+  width: 25%;
+}
+
+#footer .footer-menu .title {
+  color: #1d1d1f;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#footer .footer-menu li {
+  margin-top: 10px;
+}
+
+#footer .footer-menu a {
+  color: #86868b;
+}
+
+#footer .footer-menu a:hover {
+  text-decoration: underline;
+}
+
+#footer .copyright {
+  font-size: 12px;
+}
+
+
